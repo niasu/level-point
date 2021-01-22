@@ -1,0 +1,26 @@
+.header {
+	position: relative;
+	min-height: 33rem;
+	width: 100%;
+	background-image: url('/images/1.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #fff;
+
+	h1 {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		//position to middle
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		//text decoration
+		color: white;
+		text-transform: uppercase;
+		text-shadow: 0.125rem 0.125rem 0.3125rem black;
+		font-size: 7vw;
+		white-space: nowrap;
+	}
+}
