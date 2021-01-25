@@ -1,0 +1,14 @@
+.site-wrap {
+	max-width: 45rem;
+	margin: 4.375rem auto;
+	background: white;
+	padding: 2.5rem;
+	text-align: center;
+	box-shadow: 0 0 0.625rem 0.3125rem rgba(0, 0, 0, 0.05);
+	transform: scale(0.99);
+	transition: transform 0.5s;
+
+	p {
+		font-size: 1.25rem;
+	}
+}
