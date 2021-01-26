@@ -21,6 +21,10 @@
 		text-transform: uppercase;
 		text-shadow: 0.125rem 0.125rem 0.3125rem black;
 		font-size: 7vw;
+		font-weight: bold;
 		white-space: nowrap;
+		//selection
+
+		user-select: none;
 	}
 }

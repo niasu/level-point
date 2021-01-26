@@ -1,8 +1,10 @@
 html {
   font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: #eeeeee;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -47,7 +49,12 @@ body.fixed-nav nav {
   text-transform: uppercase;
   text-shadow: 0.125rem 0.125rem 0.3125rem black;
   font-size: 7vw;
+  font-weight: bold;
   white-space: nowrap;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .nav {
