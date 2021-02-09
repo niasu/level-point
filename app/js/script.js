@@ -1,7 +1,7 @@
 const nav = document.querySelector('.nav');
 const logo = document.querySelector('.nav__logo');
 let topOfNav = nav.offsetTop;
-console.log(nav.offsetTop);
+// console.log(nav.offsetTop);
 
 function fixNav() {
 if (window.scrollY >= topOfNav) {
@@ -11,7 +11,7 @@ if (window.scrollY >= topOfNav) {
     logo.style.transition = "all 0.5s";
     logo.style.backgroundColor = "white";
     logo.style.color = "black";
-    console.log("scrolledpast");
+    // console.log("scrolledpast");
 } else {
     document.body.classList.remove('fixed-nav');
     document.body.style.paddingTop = 0;
@@ -20,3 +20,4 @@ if (window.scrollY >= topOfNav) {
 }
 
 window.addEventListener('scroll', fixNav);
+

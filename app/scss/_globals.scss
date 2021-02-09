@@ -22,3 +22,17 @@ body.fixed-nav nav {
 	position: fixed;
 	box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
 }
+
+// Visibility
+
+.hide-for-mobile {
+	@include breakpoint-down(medium) {
+		display: none;
+	}
+}
+
+.hide-for-desktop {
+	@include breakpoint-up(large) {
+		display: none;
+	}
+}

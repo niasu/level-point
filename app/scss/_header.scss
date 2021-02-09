@@ -20,7 +20,12 @@
 		color: white;
 		text-transform: uppercase;
 		text-shadow: 0.125rem 0.125rem 0.3125rem black;
-		font-size: 7vw;
+		font-size: 10vw;
+
+		@include breakpoint-down(medium) {
+			font-size: 14vw;
+		}
+
 		font-weight: bold;
 		white-space: nowrap;
 		//selection

@@ -1,6 +1,11 @@
 .site-wrap {
-	max-width: 45rem;
-	margin: 4.375rem auto;
+	max-width: 58rem;
+	margin: 4rem auto;
+
+	@include breakpoint-down(medium) {
+		margin: 1rem auto;
+	}
+
 	background: white;
 	padding: 2.5rem;
 	text-align: center;
